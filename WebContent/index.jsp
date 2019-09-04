@@ -11,14 +11,22 @@ pageEncoding="UTF-8"%>
        margin: 0 ;
 	}
 	.header {
-    	height: 60px ;
+    	height: 72px ;
     	background: #458fce ;
+	}
+	.header .logo {
+	    color: #fff ;
+	    line-height: 72px ;
+	    font-size: 30px ;
+	    margin-left: 20px ;
+	    display:inline-block ;
+	    font-weight:500 ;
 	}
 </style>
 </head>
 <body>
-    <div class="header">
-    
-    </div>
+	<div class="header">
+    	<div class='logo'>原创文字</div>
+	</div>
 </body>
 </html>
