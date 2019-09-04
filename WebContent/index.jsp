@@ -6,7 +6,14 @@ pageEncoding="UTF-8"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>首页</title>
 <style>
-    
+    *{
+ 	   padding: 0 ;
+       margin: 0 ;
+	}
+	.header {
+    	height: 60px ;
+    	background: #458fce ;
+	}
 </style>
 </head>
 <body>
