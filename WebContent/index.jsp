@@ -21,12 +21,36 @@ pageEncoding="UTF-8"%>
 	    margin-left: 20px ;
 	    display:inline-block ;
 	    font-weight:500 ;
+	    float:left
+	}
+	ul li {
+    	list-style: none ;
+	}
+	.header ul li.first {
+	    margin-left: 30px ;
+	}
+	.header ul li {
+	    float: left ;
+	    color: #fff ;
+	    display: inline-block ;
+	    width: 112px ;
+	    height: 72px ; 
+	    text-align: center ;
+	    line-height:72px ;
+	    cursor: pointer ;
 	}
 </style>
 </head>
 <body>
 	<div class="header">
     	<div class='logo'>原创文字</div>
+    	<ul>
+	        <li class="first">首页</li>
+	        <li>原创故事</li>
+	        <li>热门专题</li>
+	        <li>欣赏美文</li>
+	        <li>赞助</li>
+    	</ul>
 	</div>
 </body>
 </html>
